@@ -2,7 +2,15 @@ body { font-size: 16px; line-height: 1.8; color: #6c757d; font-family: "acumin-p
 
   font-weight: 400;
   
-  font-style: normal; }
+  font-style: normal;
+  background-image: none;
+  background-position: top left;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: repeat;
+  background-color: #f6f6f6; }
+
+
 
 ::-moz-selection { background: yellow; }
 
@@ -26,7 +34,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .site-logo { position: relative; top: -10px; z-index: 9999; }
 
-.templateux-navbar .site-logo a { font-family: "acumin-pro", sans-serif; font-weight: 400; font-style: normal; font-size: 20px; color: #000; letter-spacing: 1pt; }
+.templateux-navbar .site-logo a { font-family: "acumin-pro", sans-serif; font-weight: 400; font-style: normal; font-size: 20px; color: #555; letter-spacing: 1pt; }
 
 .templateux-navbar .templateux-menu { position: relative; }
 
@@ -36,11 +44,9 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .templateux-menu ul li a { margin-right: 20px; font-size: 13px; text-transform: uppercase; letter-spacing: .1em; color: #888; position: relative; padding-bottom: 5px; display: block; }
 
-.templateux-navbar .templateux-menu ul li a:before { content: ""; position: absolute; bottom: 0; height: 2px; width: 0; left: 0; background: #888; -webkit-transition: .15s width ease; -o-transition: .15s width ease; transition: .15s width ease; }
+.templateux-navbar .templateux-menu ul li a:hover { color: #333 }
 
-.templateux-navbar .templateux-menu ul li a:hover:before { width: 100%; }
-
-.templateux-navbar .templateux-menu ul li.active > a:before { width: 100%; }
+.templateux-navbar .templateux-menu ul li.active-link > a { color: #333 }
 
 .templateux-navbar .templateux-menu ul li:last-child a { margin-right: 0; }
 
@@ -91,11 +97,11 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 @media (max-width: 991.98px) { .templateux-hero h1, .intro h1 { font-size: 36px; } }
 
-.templateux-portfolio-overlap { position: relative; margin-top: -100px; }
+.templateux-portfolio-overlap { position: relative; margin-top: 0px; }
 
-@media (max-width: 991.98px) { .templateux-portfolio-overlap { margin-top: -50px; } }
+@media (max-width: 991.98px) { .templateusx-portfolio-overlap { margin-top: 0px; } }
 
-.container-fluid { padding-left: 50px; padding-right: 50px; max-width: 1600px; }
+.container-fluid { padding-left: 50px; padding-right: 50px; max-width: 900px; }
 
 @media (max-width: 767.98px) { .container-fluid { padding-left: 15px; padding-right: 15px; } }
 
